@@ -3,7 +3,7 @@ import logging
 import logging.config
 
 logging.config.fileConfig('logging.conf', disable_existing_loggers=False)
-log_buffer_file = logging.getLogger("buffer file")
+logger = logging.getLogger("root")
 
 WINDOWS_USERNAME = "Family"
 

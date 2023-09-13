@@ -18,6 +18,7 @@ os.remove('_logging.conf')
 
 logger = logging.getLogger("root")
 
+# Configure username for directory
 WINDOWS_USERNAME = "Family"
 
 dir_documents = RichPath(

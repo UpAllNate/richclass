@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "richclass"
+version = "1.0.0"
+description = "Provides feature-rich classes for common use cases"
+readme = "README.md"
+authors = [{ name = "Nate", email = "upallnate@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["class", "features", "tutorial"]
+
+dependencies = []
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/UpAllNate/richclass"

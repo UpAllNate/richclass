@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "richclass"
 version = "1.0.0"
-description = "Provides feature-rich classes for common use cases"
+description = "Provides feature-rich classes for simplifying"
 readme = "README.md"
 authors = [{ name = "Nate", email = "upallnate@gmail.com" }]
 license = { file = "LICENSE" }

@@ -1,4 +1,4 @@
-# RichClass: Python classes for simplifying
+# A collection of feature rich classes
 
 RichClass is a collection of python classes that aim to rapidly bridge the gap between verbose code and creating feature rich objects with common sense features. The flagship class for this package's release being RichPath, a class that builds on the pathlib.Path class which includes a method detect() which returns True if the directory or file exists. 
 

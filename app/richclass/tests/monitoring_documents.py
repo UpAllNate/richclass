@@ -1,6 +1,7 @@
 from richclass import RichPath, RichPathType
 import logging
 import logging.config
+import os
 
 # Set up and configure the logger for this program
 LOG_FILE_NAME = "uppyrclasstest.log"
@@ -25,7 +26,7 @@ dir_documents = RichPath(
     RichPathType.DIRECTORY,
     path_str = "C:/Users/" + WINDOWS_USERNAME,
     req= True,
-    logger= log_buffer_file
+    logger= logger
 )
 
 print(dir_documents)

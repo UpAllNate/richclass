@@ -46,7 +46,7 @@ class RichPath:
         self.path_obj = Path(new_path_str)
 
         if self.logging_en:
-            self.logger.debug("path_str update: ",self.path_str, self.path_obj)
+            self.logger.debug(f"path_str update: , {self.path_str}, {self.path_obj}")
 
         self.detect()
 
@@ -55,7 +55,7 @@ class RichPath:
         self.path_str = str(new_path_obj)
 
         if self.logging_en:
-            self.logger.debug("path_obj update: ",self.path_str, self.path_obj)
+            self.logger.debug(f"path_obj update: , {self.path_str}, {self.path_obj}")
 
         self.detect()
 

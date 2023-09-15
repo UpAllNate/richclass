@@ -15,7 +15,12 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "richclass": {
+            "path": ".",
+            "version": "==1.0.0"
+        }
+    },
     "develop": {
         "certifi": {
             "hashes": [
